@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
 
 app.get("/nuclear-launch-code", (req, res) => {
   if (req.headers.authorization !== process.env.API_KEY) {
-    res.status(401).send("Unauthorized!");
+    res.status(401).send("Unauthorised!");
   }
 
   res.send(`The nuclear launch code is: ${process.env.LAUNCH_CODE}`);

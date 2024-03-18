@@ -1,7 +1,7 @@
 # Crane API 🏗️
 
 This is a very complex API that manages crane operations. Additionally, it stores the nuclear launch codes for the
-Divided States of America for authorized users to access.
+Divided States of America for authorised users to access.
 
 We use military-grade authentication to ensure that only the most trusted individuals can access the nuclear launch
 codes.
